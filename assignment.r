@@ -1,6 +1,3 @@
-install.packages('ggplot2')
-install.packages('dplyr')
-install.packages('tidyr')
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -13,3 +10,4 @@ ggplot(M8_Assignment_Dataset, aes(x = Year, y = Black)) + geom_point() +
   ylab('Trust Score') +
   theme_minimal() + 
   scale_x_continuous(limits = plot_years, breaks = seq(2018, 2028, by = 2))
+
