@@ -1,3 +1,5 @@
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("forecast")
+install.packages("readxl")
+install.packages("tidyr") 
