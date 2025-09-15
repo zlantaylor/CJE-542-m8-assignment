@@ -2,8 +2,9 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 M8_Assignment_Dataset 
+plot_years <- c(2018, 2028)
 ggplot(M8_Assignment_Dataset, aes(x = Year, y = Black)) + geom_point() + 
-  + geom_smooth(method = 'lm', se = FALSE, fullrange = TRUE) +
+  geom_smooth(method = 'lm', se = FALSE, fullrange = TRUE) +
   ggtitle('Projected Trend in Black Police Trust Levels') +
   xlab('Year') +
   ylab('Trust Score') +
